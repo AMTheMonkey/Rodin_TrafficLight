@@ -9,7 +9,7 @@
 <org.eventb.core.refinesEvent name="'" org.eventb.core.target="set_cars"/>
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="new_value_colors"/>
 <org.eventb.core.action name=")" org.eventb.core.assignment="cars_colors ≔ new_value_colors" org.eventb.core.label="act1"/>
-<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="green ∈ new_value_colors ⇒ peds_colors = red" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="green ∈ new_value_colors ⇒ peds_colors = red"/>
 <org.eventb.core.witness name="+" org.eventb.core.label="new_value" org.eventb.core.predicate="green ∈ new_value_colors ⇔ new_value = TRUE"/>
 <org.eventb.core.guard name="," org.eventb.core.label="grd_y_r" org.eventb.core.predicate="cars_colors = {orange} ⇒ new_value_colors = {red}"/>
 <org.eventb.core.guard name="-" org.eventb.core.label="grd_r_ry" org.eventb.core.predicate="cars_colors = {red} ⇒ new_value_colors = {red,orange}"/>
@@ -22,7 +22,7 @@
 </org.eventb.core.event>
 <org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="set_peds_green">
 <org.eventb.core.refinesEvent name="'" org.eventb.core.target="set_peds_go"/>
-<org.eventb.core.action name="'" org.eventb.core.assignment="peds_colors ≔ red" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="peds_colors ≔ green" org.eventb.core.label="act1"/>
 <org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="green ∉ cars_colors"/>
 </org.eventb.core.event>
 <org.eventb.core.seesContext name="." org.eventb.core.target="feu"/>

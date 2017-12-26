@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="25">
+<org.eventb.core.poFile org.eventb.core.poStamp="27">
 <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
 <org.eventb.core.poIdentifier name="COLORS" org.eventb.core.type="ℙ(COLORS)"/>
 <org.eventb.core.poIdentifier name="green" org.eventb.core.type="COLORS"/>
@@ -50,12 +50,6 @@
 <org.eventb.core.poIdentifier name="peds_go'" org.eventb.core.type="BOOL"/>
 </org.eventb.core.poPredicateSet>
 <org.eventb.core.poPredicateSet name="EVTALLHYPpeds_colort" org.eventb.core.parentSet="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTpeds_colort" org.eventb.core.poStamp="12"/>
-<org.eventb.core.poSequent name="set_cars/grd2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="20">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTpeds_coloru"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green∈new_value_colors⇒peds_colors=red" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+|org.eventb.core.guard#*"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+|org.eventb.core.guard#*"/>
-<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTpeds_coloru"/>
-</org.eventb.core.poSequent>
 <org.eventb.core.poSequent name="set_cars/new_value/WFIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of witness" org.eventb.core.poStamp="25">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTALLHYPpeds_coloru"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∃new_value⦂BOOL·green∈new_value_colors⇔new_value=TRUE" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+|org.eventb.core.witness#+"/>
@@ -119,18 +113,18 @@
 <org.eventb.core.poIdentifier name="peds_go'" org.eventb.core.type="BOOL"/>
 </org.eventb.core.poPredicateSet>
 <org.eventb.core.poPredicateSet name="EVTALLHYPpeds_colorv" org.eventb.core.parentSet="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTpeds_colorv" org.eventb.core.poStamp="14"/>
-<org.eventb.core.poSequent name="set_peds_green/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="16">
+<org.eventb.core.poSequent name="set_peds_green/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="26">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTALLHYPpeds_colorw"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red∈{red,green}" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#0"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green∈{red,green}" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#,"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poSequent#set_peds_green\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="set_peds_green/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="16">
+<org.eventb.core.poSequent name="set_peds_green/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="26">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/tutorial-03/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTALLHYPpeds_colorw"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="TRUE=TRUE⇔red=green" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#1"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="TRUE=TRUE⇔green=green" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#,"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#1"/>
