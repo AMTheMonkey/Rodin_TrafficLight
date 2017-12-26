@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="COLORS" org.eventb.core.type="ℙ(COLORS)"/>
+<org.eventb.core.poIdentifier name="green" org.eventb.core.type="COLORS"/>
+<org.eventb.core.poIdentifier name="orange" org.eventb.core.type="COLORS"/>
+<org.eventb.core.poIdentifier name="red" org.eventb.core.type="COLORS"/>
+<org.eventb.core.poPredicate name="orangf" org.eventb.core.predicate="partition(COLORS,{red},{orange},{green})" org.eventb.core.source="/tutorial-03/feu.buc|org.eventb.core.contextFile#feu|org.eventb.core.axiom#+"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="button" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="cars_go" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="peds_colors" org.eventb.core.type="COLORS"/>
+<org.eventb.core.poIdentifier name="peds_go" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poPredicate name="peds_colort" org.eventb.core.predicate="cars_go∈BOOL" org.eventb.core.source="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="peds_coloru" org.eventb.core.predicate="peds_go∈BOOL" org.eventb.core.source="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.invariant#+"/>
+<org.eventb.core.poPredicate name="peds_colorv" org.eventb.core.predicate="¬(cars_go=TRUE∧peds_go=TRUE)" org.eventb.core.source="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poPredicate name="peds_colorw" org.eventb.core.predicate="peds_colors∈{green,red}" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poPredicate name="peds_colorx" org.eventb.core.predicate="peds_go=TRUE⇔peds_colors=green" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.invariant#evt2"/>
+<org.eventb.core.poPredicate name="peds_colory" org.eventb.core.predicate="cars_go∈BOOL" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.invariant#1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTpeds_colort" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="cars_go'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="new_value" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPpeds_colort" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#EVTIDENTpeds_colort" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="new_value∈BOOL" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#evt1|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="¬(new_value=TRUE∧peds_colors=green)" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#evt1|org.eventb.core.guard#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTpeds_coloru" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poIdentifier name="button'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPpeds_coloru" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#EVTIDENTpeds_coloru" org.eventb.core.poStamp="2">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="peds_colors=red" org.eventb.core.source="/tutorial-03/feuPedButton.bum|org.eventb.core.machineFile#feuPedButton|org.eventb.core.event#7|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/act1 /SIM" org.eventb.core.accurate="false" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#EVTALLHYPpeds_colorv"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="peds_colors'=red" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#*|org.eventb.core.action#'"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#*"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#*|org.eventb.core.action#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/tutorial-03/feuPedButton.bum|org.eventb.core.machineFile#feuPedButton|org.eventb.core.event#2"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poSequent#INITIALISATION\/act1 \/SIM|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/act1/SIM" org.eventb.core.accurate="false" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#EVTALLHYPpeds_colorv"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="cars_go'=FALSE" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#*|org.eventb.core.action#("/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#*"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#*|org.eventb.core.action#("/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/tutorial-03/feuPedButton.bum|org.eventb.core.machineFile#feuPedButton|org.eventb.core.event#2"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poSequent#INITIALISATION\/act1\/SIM|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTpeds_colorv" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poIdentifier name="button'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="cars_go'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="peds_colors'" org.eventb.core.type="COLORS"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPpeds_colorv" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#EVTIDENTpeds_colorv" org.eventb.core.poStamp="2"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTpeds_colorw" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poIdentifier name="button'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="peds_colors'" org.eventb.core.type="COLORS"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPpeds_colorw" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#EVTIDENTpeds_colorw" org.eventb.core.poStamp="3"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTpeds_colorx" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="peds_colors'" org.eventb.core.type="COLORS"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPpeds_colorx" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#EVTIDENTpeds_colorx" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="cars_go=FALSE" org.eventb.core.source="/tutorial-03/feuPed.bum|org.eventb.core.machineFile#feuPed|org.eventb.core.event#-|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/tutorial-03/feuPedButton.bpo|org.eventb.core.poFile#feuPedButton|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="button∈BOOL" org.eventb.core.source="/tutorial-03/feuPedButton.bum|org.eventb.core.machineFile#feuPedButton|org.eventb.core.invariant#6"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
