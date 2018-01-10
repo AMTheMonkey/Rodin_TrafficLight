@@ -17,6 +17,14 @@
 <org.eventb.core.invariant name="/" org.eventb.core.label="inv2" org.eventb.core.predicate="velos ⊆ VELOS"/>
 <org.eventb.core.invariant name="0" org.eventb.core.label="inv3" org.eventb.core.predicate="sites ⊆ SITES"/>
 <org.eventb.core.invariant name="1" org.eventb.core.label="inv4" org.eventb.core.predicate="places ∈ sites → ℕ"/>
-<org.eventb.core.invariant name="2" org.eventb.core.label="inv5" org.eventb.core.predicate="places_libres ∈ sites → ℕ "/>
-<org.eventb.core.event name="3" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddSite"/>
+<org.eventb.core.invariant name="2" org.eventb.core.label="inv5" org.eventb.core.predicate="places_libres ⊆ places "/>
+<org.eventb.core.event name="3" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddSite">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="site"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="site ∈ SITES∖sites"/>
+<org.eventb.core.parameter name=")" org.eventb.core.identifier="nb_places"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="nb_places ∈ ℕ"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="sites ≔ sites ∪ {site}" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="places(site) ≔ nb_places" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="-" org.eventb.core.assignment="places_libres(site) ≔ 3÷4 ∗ nb_places" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
 </org.eventb.core.machineFile>

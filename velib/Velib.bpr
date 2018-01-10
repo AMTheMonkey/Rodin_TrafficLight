@@ -20,7 +20,84 @@
 </org.eventb.core.prAnte>
 </org.eventb.core.prRule>
 <org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="(∅ ⦂ ℙ(SITES×ℤ))∈(∅ ⦂ ℙ(SITES)) → ℕ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="(∅ ⦂ ℙ(SITES×ℤ))⊆(∅ ⦂ ℙ(SITES×ℤ))"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AddSite/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p3,p7,p1,p6,p2,p4,p5">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="nb_places" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="places" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="places_libres" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="site" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="abonnes⊆PERSONNES">
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="finite(SITES)"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="places_libres⊆places"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="finite(PERSONNES)"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="site∈SITES ∖ sites"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="nb_places∈ℕ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="sites⊆SITES"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="places{site ↦ nb_places}∈sites∪{site} → ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="places∈sites → ℕ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="velos⊆VELOS">
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(VELOS)"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AddSite/inv5/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p3"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="abonnes⊆PERSONNES">
+<org.eventb.core.prIdent name="PERSONNES" org.eventb.core.type="ℙ(PERSONNES)"/>
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="4≠0"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="sites⊆SITES">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="velos⊆VELOS">
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AddSite/act3/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p1" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="4≠0"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 </org.eventb.core.prProof>
