@@ -4,27 +4,37 @@
 <org.eventb.core.action name="'" org.eventb.core.assignment="abonnes ≔ ∅" org.eventb.core.label="act1"/>
 <org.eventb.core.action name="(" org.eventb.core.assignment="velos ≔ ∅" org.eventb.core.label="act2"/>
 <org.eventb.core.action name=")" org.eventb.core.assignment="sites ≔ ∅" org.eventb.core.label="act3"/>
-<org.eventb.core.action name="*" org.eventb.core.assignment="places ≔ ∅" org.eventb.core.label="act4"/>
-<org.eventb.core.action name="+" org.eventb.core.assignment="places_libres ≔ ∅" org.eventb.core.label="act5"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="nbplaces ≔ ∅" org.eventb.core.label="act4"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="velos_in_site ≔ ∅" org.eventb.core.label="act5"/>
 </org.eventb.core.event>
 <org.eventb.core.seesContext name="(" org.eventb.core.target="VelibContext"/>
 <org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name=")" org.eventb.core.identifier="abonnes"/>
 <org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="*" org.eventb.core.identifier="velos"/>
 <org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="+" org.eventb.core.identifier="sites"/>
-<org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="," org.eventb.core.identifier="places"/>
-<org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="-" org.eventb.core.identifier="places_libres"/>
+<org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name=";" org.eventb.core.identifier="nbplaces"/>
+<org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="&gt;" org.eventb.core.identifier="velos_in_site"/>
 <org.eventb.core.invariant name="." org.eventb.core.label="inv1" org.eventb.core.predicate="abonnes ⊆ PERSONNES"/>
 <org.eventb.core.invariant name="/" org.eventb.core.label="inv2" org.eventb.core.predicate="velos ⊆ VELOS"/>
 <org.eventb.core.invariant name="0" org.eventb.core.label="inv3" org.eventb.core.predicate="sites ⊆ SITES"/>
-<org.eventb.core.invariant name="1" org.eventb.core.label="inv4" org.eventb.core.predicate="places ∈ sites → ℕ"/>
-<org.eventb.core.invariant name="2" org.eventb.core.label="inv5" org.eventb.core.predicate="places_libres ⊆ places "/>
+<org.eventb.core.invariant name="=" org.eventb.core.label="inv8" org.eventb.core.predicate="nbplaces ∈ sites  → ℕ "/>
+<org.eventb.core.invariant name="@" org.eventb.core.label="inv10" org.eventb.core.predicate="velos_in_site ∈ sites → ℙ(velos)"/>
 <org.eventb.core.event name="3" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddSite">
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="site"/>
 <org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="site ∈ SITES∖sites"/>
 <org.eventb.core.parameter name=")" org.eventb.core.identifier="nb_places"/>
 <org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="nb_places ∈ ℕ"/>
 <org.eventb.core.action name="+" org.eventb.core.assignment="sites ≔ sites ∪ {site}" org.eventb.core.label="act1"/>
-<org.eventb.core.action name="," org.eventb.core.assignment="places(site) ≔ nb_places" org.eventb.core.label="act2"/>
-<org.eventb.core.action name="-" org.eventb.core.assignment="places_libres(site) ≔ 3÷4 ∗ nb_places" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="nbplaces(site) ≔ nb_places" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="-" org.eventb.core.assignment="velos_in_site(site) ≔ init_velos" org.eventb.core.label="act3"/>
+<org.eventb.core.parameter name="." org.eventb.core.identifier="init_velos"/>
+<org.eventb.core.guard name="/" org.eventb.core.label="grd3" org.eventb.core.predicate="init_velos ⊆ velos"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="5" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="RemoveSite"/>
+<org.eventb.core.event name="6" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddVelo">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="new_velos"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="site"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="site ∈ sites"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="new_velos ∈ velos"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="velos_in_site(site) ≔ velos_in_site(site) ∪ {new_velos}" org.eventb.core.label="act1"/>
 </org.eventb.core.event>
 </org.eventb.core.machineFile>
