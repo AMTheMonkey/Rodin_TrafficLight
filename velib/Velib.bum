@@ -41,7 +41,13 @@
 <org.eventb.core.action name="." org.eventb.core.assignment="velos_in_site ≔ velos_in_site  { site_a ↦ velos_in_site(site_a) ∖ velos_a , site_b ↦ velos_in_site(site_b) ∪ velos_a } " org.eventb.core.label="act2"/>
 <org.eventb.core.guard name="/" org.eventb.core.label="grd4" org.eventb.core.predicate="nbplaces(site_b) − (card(velos_in_site(site_b))) ≥ card(velos_a) "/>
 </org.eventb.core.event>
-<org.eventb.core.event name="5" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="RemoveSite"/>
+<org.eventb.core.event name="5" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="RemoveSite">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="s"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="s∈sites"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="velos_in_site ≔ velos_in_site ∖ {s ↦ velos_in_site(s)}" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="nbplaces ≔ nbplaces ∖ {s ↦ nbplaces(s)}" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="sites ≔ sites ∖ {s}" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
 <org.eventb.core.event name="6" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddVelo">
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="new_velos"/>
 <org.eventb.core.parameter name="(" org.eventb.core.identifier="site"/>
@@ -53,7 +59,6 @@
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="new_abonne"/>
 <org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="new_abonne ∈ PERSONNES∖abonnes"/>
 <org.eventb.core.action name=")" org.eventb.core.assignment="abonnes ≔ abonnes ∪ {new_abonne}" org.eventb.core.label="act1"/>
-<org.eventb.core.action name="*" org.eventb.core.assignment="emprunts(new_abonne) ≔ ∅" org.eventb.core.label="act2"/>
 </org.eventb.core.event>
 <org.eventb.core.event name="B" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="EmprunterVelo">
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="abonne"/>
