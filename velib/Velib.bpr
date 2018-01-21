@@ -1570,13 +1570,13 @@
 <org.eventb.core.prPred name="p48" org.eventb.core.predicate="¬s2∈{site_a,site_b}">
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
-<org.eventb.core.prReas name="r6" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
-<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.funOvr:1"/>
-<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.funOvr:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
+<org.eventb.core.prReas name="r6" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="AddVelo/inv12/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="s1,s2" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
 <org.eventb.core.lang name="L"/>
@@ -2522,9 +2522,9 @@
 <org.eventb.core.prIdent name="velo" org.eventb.core.type="VELOS"/>
 <org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inv14/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="s" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
 <org.eventb.core.lang name="L"/>
@@ -4116,8 +4116,8 @@
 <org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
 <org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="RendreVelo/inv11/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
 <org.eventb.core.lang name="L"/>
@@ -4315,8 +4315,8 @@
 <org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
 <org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
 </org.eventb.core.prProof>
@@ -4467,8 +4467,8 @@
 <org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
 <org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
 </org.eventb.core.prProof>
@@ -4644,54 +4644,54 @@
 <org.eventb.core.prPred name="p29" org.eventb.core.predicate="¬s=site">
 <org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
-<org.eventb.core.prReas name="r7" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
-<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
-<org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.funOvr:1"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+<org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
+<org.eventb.core.prReas name="r7" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
 </org.eventb.core.prProof>
-<org.eventb.core.prProof name="RendreVelo/inv12/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="s1,s2" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
+<org.eventb.core.prProof name="RendreVelo/inv12/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="s1,s2" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
 <org.eventb.core.lang name="L"/>
 <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p6">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prGoal="p6" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p13">
-<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
-<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prGoal="p13" org.eventb.core.prHyps="">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p19">
-<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p14"/>
-<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p15"/>
-<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p16"/>
-<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p17"/>
-<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p19" org.eventb.core.prHyps="">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p22">
-<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p20"/>
-<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p21"/>
-<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees s1,s2)" org.eventb.core.prGoal="p22" org.eventb.core.prHyps="">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p23">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p13" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p16">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees s1,s2)" org.eventb.core.prGoal="p16" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p17">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
-<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p23" org.eventb.core.prHyps="">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p27" org.eventb.core.prHyps="p24,p25,p26">
-<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p27" org.eventb.core.prHyps="">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p29" org.eventb.core.prHyps="p28">
-<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p29" org.eventb.core.prHyps="">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p31" org.eventb.core.prHyps="p30">
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p31" org.eventb.core.prHyps="">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p32">
-<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with s1=site" org.eventb.core.prHyps="p28">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p17" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p21" org.eventb.core.prHyps="p18,p19,p20">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p21" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p23" org.eventb.core.prHyps="p22">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p23" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p25" org.eventb.core.prHyps="p24">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p25" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with s1=site" org.eventb.core.prHyps="p22">
 <org.eventb.core.prAnte name="'">
-<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p26" org.eventb.core.prInfHyps="p33"/>
-<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p26"/>
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p20" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p20"/>
 <org.eventb.core.prRule name="r6" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
-<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p33" org.eventb.core.prHyps="p30" org.eventb.core.prInfHyps="p34"/>
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p27" org.eventb.core.prHyps="p24" org.eventb.core.prInfHyps="p28"/>
 <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
-<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p34" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p32"/>
-<org.eventb.core.prRule name="r7" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊥ hyp" org.eventb.core.prHyps="p32"/>
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p28" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p26"/>
+<org.eventb.core.prRule name="r7" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊥ hyp" org.eventb.core.prHyps="p26"/>
 </org.eventb.core.prAnte>
 </org.eventb.core.prRule>
 </org.eventb.core.prAnte>
@@ -4701,19 +4701,19 @@
 </org.eventb.core.prAnte>
 </org.eventb.core.prRule>
 </org.eventb.core.prAnte>
-<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p36" org.eventb.core.prHyps="p35">
-<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p36" org.eventb.core.prHyps="p2">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p37">
-<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with s1=site" org.eventb.core.prHyps="p28">
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p30" org.eventb.core.prHyps="p29">
+<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p30" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p31">
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with s1=site" org.eventb.core.prHyps="p22">
 <org.eventb.core.prAnte name="'">
-<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p26" org.eventb.core.prInfHyps="p33"/>
-<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p26"/>
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p20" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p20"/>
 <org.eventb.core.prRule name="r6" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
-<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p33" org.eventb.core.prHyps="p35" org.eventb.core.prInfHyps="p38"/>
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p27" org.eventb.core.prHyps="p29" org.eventb.core.prInfHyps="p32"/>
 <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
-<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p38"/>
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p32"/>
 </org.eventb.core.prAnte>
 </org.eventb.core.prRule>
 </org.eventb.core.prAnte>
@@ -4727,21 +4727,21 @@
 <org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.1"/>
 </org.eventb.core.prRule>
 </org.eventb.core.prAnte>
-<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p40" org.eventb.core.prHyps="p39">
-<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p40" org.eventb.core.prHyps="">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p41" org.eventb.core.prHyps="p30">
-<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p41" org.eventb.core.prHyps="p2">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p42"/>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p34" org.eventb.core.prHyps="p33">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p34" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p35" org.eventb.core.prHyps="p24">
+<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p35" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p36"/>
 <org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.0"/>
 </org.eventb.core.prRule>
 </org.eventb.core.prAnte>
-<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p43" org.eventb.core.prHyps="p35">
-<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p43" org.eventb.core.prHyps="p2">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p44">
-<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p44" org.eventb.core.prHyps="p2">
-<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p45">
-<org.eventb.core.prRule name="r9" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p45" org.eventb.core.prHyps="p6,p10,p1,p8,p2,p11,p5,p7,p4,p20,p21,p24,p25,p26,p39,p35">
-<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p37" org.eventb.core.prHyps="p29">
+<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p37" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p38">
+<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p38" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p39">
+<org.eventb.core.prRule name="r9" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP" org.eventb.core.prGoal="p39" org.eventb.core.prHyps="p4,p3,p15,p18,p19,p20,p33,p29">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R500"/>
 </org.eventb.core.prRule>
 </org.eventb.core.prAnte>
 <org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.1"/>
@@ -4768,112 +4768,111 @@
 <org.eventb.core.prIdent name="abonne" org.eventb.core.type="PERSONNES"/>
 <org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
 <org.eventb.core.prIdent name="emprunts" org.eventb.core.type="ℙ(PERSONNES×VELOS)"/>
-<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
 <org.eventb.core.prIdent name="site" org.eventb.core.type="SITES"/>
 <org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
 <org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
 <org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
 <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS)))"/>
-<org.eventb.core.prPred name="p24" org.eventb.core.predicate="s1∈sites">
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="s1∈sites">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p8" org.eventb.core.predicate="nbplaces∈sites → ℕ"/>
-<org.eventb.core.prPred name="p30" org.eventb.core.predicate="s2=site">
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="s2=site">
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p11" org.eventb.core.predicate="emprunts∈abonnes ⤔ velos"/>
-<org.eventb.core.prPred name="p38" org.eventb.core.predicate="¬⊥"/>
-<org.eventb.core.prPred name="p12" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
-<org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(PERSONNES)"/>
-<org.eventb.core.prPred name="p18" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
-<org.eventb.core.prPred name="p29" org.eventb.core.predicate="(velos_in_site(site)∪{emprunts(abonne)})∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prPred name="p32" org.eventb.core.predicate="¬⊥"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="(velos_in_site(site)∪{emprunts(abonne)})∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p35" org.eventb.core.predicate="¬s2=site">
+<org.eventb.core.prPred name="p29" org.eventb.core.predicate="¬s2=site">
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p40" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prPred name="p34" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p21" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
-<org.eventb.core.prPred name="p26" org.eventb.core.predicate="¬s1=s2">
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬s1=s2">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p14" org.eventb.core.predicate="abonnes⊆PERSONNES"/>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="finite(SITES)"/>
-<org.eventb.core.prPred name="p28" org.eventb.core.predicate="s1=site">
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="abonnes⊆PERSONNES"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="s1=site">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p32" org.eventb.core.predicate="⊥"/>
-<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ran(emprunts)∩union(ran(velos_in_site))=(∅ ⦂ ℙ(VELOS))"/>
-<org.eventb.core.prPred name="p22" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))"/>
-<org.eventb.core.prPred name="p17" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
-<org.eventb.core.prPred name="p39" org.eventb.core.predicate="¬s1=site">
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p33" org.eventb.core.predicate="¬s1=site">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p9" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
-<org.eventb.core.prPred name="p33" org.eventb.core.predicate="¬site=s2">
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="¬site=s2">
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p15" org.eventb.core.predicate="velos⊆VELOS"/>
-<org.eventb.core.prPred name="p10" org.eventb.core.predicate="finite(VELOS)"/>
-<org.eventb.core.prPred name="p42" org.eventb.core.predicate="velos_in_site(s1)∩(velos_in_site(site)∪{emprunts(abonne)})=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="velos⊆VELOS"/>
+<org.eventb.core.prPred name="p36" org.eventb.core.predicate="velos_in_site(s1)∩(velos_in_site(site)∪{emprunts(abonne)})=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p44" org.eventb.core.predicate="velos_in_site(s1)∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
-<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
-<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p37" org.eventb.core.predicate="(velos_in_site(site)∪{emprunts(abonne)})∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))">
-<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p45" org.eventb.core.predicate="velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prPred name="p38" org.eventb.core.predicate="velos_in_site(s1)∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos)"/>
-<org.eventb.core.prPred name="p4" org.eventb.core.predicate="site∈sites"/>
-<org.eventb.core.prPred name="p13" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS)))"/>
-<org.eventb.core.prPred name="p7" org.eventb.core.predicate="abonne∈abonnes"/>
-<org.eventb.core.prPred name="p16" org.eventb.core.predicate="sites⊆SITES"/>
-<org.eventb.core.prPred name="p25" org.eventb.core.predicate="s2∈sites">
+<org.eventb.core.prPred name="p31" org.eventb.core.predicate="(velos_in_site(site)∪{emprunts(abonne)})∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p27" org.eventb.core.predicate="(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prPred name="p39" org.eventb.core.predicate="velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p43" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="site∈sites"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="abonne∈abonnes"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="sites⊆SITES"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="s2∈sites">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p23" org.eventb.core.predicate="s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prPred name="p37" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p41" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩(velos_in_site(site)∪{emprunts(abonne)})=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p20" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))"/>
-<org.eventb.core.prPred name="p19" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS)))"/>
-<org.eventb.core.prPred name="p31" org.eventb.core.predicate="(velos_in_site(site)∪{emprunts(abonne)})∩(velos_in_site(site)∪{emprunts(abonne)})=(∅ ⦂ ℙ(VELOS))"/>
-<org.eventb.core.prPred name="p34" org.eventb.core.predicate="¬⊤"/>
-<org.eventb.core.prPred name="p36" org.eventb.core.predicate="(velos_in_site(site)∪{emprunts(abonne)})∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
-<org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
-<org.eventb.core.prReas name="r9" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prPred name="p35" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩(velos_in_site(site)∪{emprunts(abonne)})=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="(velos_in_site(site)∪{emprunts(abonne)})∩(velos_in_site(site)∪{emprunts(abonne)})=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="¬⊤"/>
+<org.eventb.core.prPred name="p30" org.eventb.core.predicate="(velos_in_site(site)∪{emprunts(abonne)})∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
-<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
-<org.eventb.core.prReas name="r8" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.funOvr:1"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+<org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r9" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalPP:1"/>
+<org.eventb.core.prReas name="r8" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="RendreVelo/act2/WD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
 <org.eventb.core.lang name="L"/>
@@ -4947,11 +4946,676 @@
 <org.eventb.core.prPred name="p13" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
 <org.eventb.core.prPred name="p14" org.eventb.core.predicate="site∈dom(velos_in_site)"/>
 <org.eventb.core.prExpr name="e0" org.eventb.core.expression="sites"/>
-<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.totalDom:2"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
 <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AddVeloToSite/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p19"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p20"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p19" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p21"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p12,p7,p2,p5,p10,p8,p4,p11,p1,p13,p9,p20,p21">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+<org.eventb.core.prIdent name="emprunts" org.eventb.core.type="ℙ(PERSONNES×VELOS)"/>
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="new_velos" org.eventb.core.type="VELOS"/>
+<org.eventb.core.prIdent name="site" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="new_velos∈velos"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="abonnes⊆PERSONNES"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="finite(SITES)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ran(emprunts)∩union(ran(velos_in_site))=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="nbplaces∈sites → ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="velos⊆VELOS"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(VELOS)"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="emprunts∈abonnes ⤔ velos"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="velos_in_site∈SITES ⇸ ℙ(VELOS)"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos)"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="site∈sites"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="finite(PERSONNES)"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="velos_in_site{site ↦ velos_in_site(site)∪{new_velos}}∈sites → ℙ(velos)"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="sites⊆SITES"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="site∈dom(velos_in_site)"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AddVeloToSite/inv14/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="s" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p18">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p18" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p21">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p19"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p20"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees s)" org.eventb.core.prGoal="p21" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p22">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p22" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p24" org.eventb.core.prHyps="p23">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p24" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p25">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p27">
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with s=site" org.eventb.core.prGoal="p27" org.eventb.core.prHyps="p25">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p30" org.eventb.core.prHyps="p29">
+<org.eventb.core.prRule name="r6" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p30" org.eventb.core.prHyps="p3">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p31">
+<org.eventb.core.prRule name="r7" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p31" org.eventb.core.prHyps="p7,p10,p2,p8,p3,p11,p6,p5,p1,p19,p20,p23,p29">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="1.0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="1.0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+<org.eventb.core.prIdent name="emprunts" org.eventb.core.type="ℙ(PERSONNES×VELOS)"/>
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="new_velos" org.eventb.core.type="VELOS"/>
+<org.eventb.core.prIdent name="site" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="new_velos∈velos"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p30" org.eventb.core.predicate="nbplaces(s)≥card(({site} ⩤ velos_in_site)(s))">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="nbplaces∈sites → ℕ"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="emprunts∈abonnes ⤔ velos"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(PERSONNES)"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="nbplaces(site)≥card(velos_in_site(site))+1 − card(velos_in_site(site)∩{new_velos})"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="s=site">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="nbplaces(s)≥card(velos_in_site(site))+1 − card(velos_in_site(site)∩{new_velos})">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="s∈sites⇒nbplaces(s)≥card((velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s))">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="abonnes⊆PERSONNES"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="finite(SITES)"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ran(emprunts)∩union(ran(velos_in_site))=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card((velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s)))"/>
+<org.eventb.core.prPred name="p31" org.eventb.core.predicate="nbplaces(s)≥card(velos_in_site(s))">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="velos⊆VELOS"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="finite(VELOS)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="site∈sites"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="nbplaces(s)≥card(velos_in_site(site)∪{new_velos})">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="s∈sites">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="sites⊆SITES"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="nbplaces(s)≥card((velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s))">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p29" org.eventb.core.predicate="¬s=site">
+<org.eventb.core.prIdent name="s" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card((velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s)))"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card((velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s))"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.funOvr:1"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+<org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
+<org.eventb.core.prReas name="r7" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AddVeloToSite/inv12/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="s1,s2" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p13">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prGoal="p13" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p19">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p19" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p22">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p20"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p21"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees s1,s2)" org.eventb.core.prGoal="p22" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p23">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p23" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p27" org.eventb.core.prHyps="p24,p25,p26">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p27" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p29" org.eventb.core.prHyps="p28">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p29" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p31" org.eventb.core.prHyps="p30">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p31" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p32">
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with s1=site" org.eventb.core.prHyps="p28">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p26" org.eventb.core.prInfHyps="p33"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p26"/>
+<org.eventb.core.prRule name="r6" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p33" org.eventb.core.prHyps="p30" org.eventb.core.prInfHyps="p34"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p34" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p32"/>
+<org.eventb.core.prRule name="r7" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊥ hyp" org.eventb.core.prHyps="p32"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p36" org.eventb.core.prHyps="p35">
+<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p36" org.eventb.core.prHyps="p3">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p37">
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with s1=site" org.eventb.core.prHyps="p28">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p26" org.eventb.core.prInfHyps="p33"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p26"/>
+<org.eventb.core.prRule name="r6" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p33" org.eventb.core.prHyps="p35" org.eventb.core.prInfHyps="p38"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p38"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.1"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.1"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p40" org.eventb.core.prHyps="p39">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ovr in goal" org.eventb.core.prGoal="p40" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p41" org.eventb.core.prHyps="p30">
+<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p41" org.eventb.core.prHyps="p3">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p42"/>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p43" org.eventb.core.prHyps="p35">
+<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p43" org.eventb.core.prHyps="p3">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p44">
+<org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p44" org.eventb.core.prHyps="p3">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p45">
+<org.eventb.core.prRule name="r9" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p45" org.eventb.core.prHyps="p7,p10,p2,p8,p3,p11,p6,p5,p1,p20,p21,p24,p25,p26,p39,p35">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.1"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.1"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0.0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+<org.eventb.core.prIdent name="emprunts" org.eventb.core.type="ℙ(PERSONNES×VELOS)"/>
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="new_velos" org.eventb.core.type="VELOS"/>
+<org.eventb.core.prIdent name="site" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="new_velos∈velos"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="s1∈sites">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p41" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩(velos_in_site(site)∪{new_velos})=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="nbplaces∈sites → ℕ"/>
+<org.eventb.core.prPred name="p37" org.eventb.core.predicate="(velos_in_site(site)∪{new_velos})∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p30" org.eventb.core.predicate="s2=site">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="emprunts∈abonnes ⤔ velos"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p38" org.eventb.core.predicate="¬⊥"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(PERSONNES)"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p31" org.eventb.core.predicate="(velos_in_site(site)∪{new_velos})∩(velos_in_site(site)∪{new_velos})=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p35" org.eventb.core.predicate="¬s2=site">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="¬s1=s2">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p36" org.eventb.core.predicate="(velos_in_site(site)∪{new_velos})∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="abonnes⊆PERSONNES"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="finite(SITES)"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="s1=site">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p32" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ran(emprunts)∩union(ran(velos_in_site))=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p42" org.eventb.core.predicate="velos_in_site(s1)∩(velos_in_site(site)∪{new_velos})=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
+<org.eventb.core.prPred name="p39" org.eventb.core.predicate="¬s1=site">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p40" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
+<org.eventb.core.prPred name="p33" org.eventb.core.predicate="¬site=s2">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="velos⊆VELOS"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="finite(VELOS)"/>
+<org.eventb.core.prPred name="p44" org.eventb.core.predicate="velos_in_site(s1)∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p29" org.eventb.core.predicate="(velos_in_site(site)∪{new_velos})∩(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p45" org.eventb.core.predicate="velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="site∈sites"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="sites⊆SITES"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="s2∈sites">
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p43" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{new_velos}})(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p34" org.eventb.core.predicate="¬⊤"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.funOvr:1"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+<org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r8" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
+<org.eventb.core.prReas name="r9" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AddVeloToSite/inv13/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p7" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="abonnes⊆PERSONNES">
+<org.eventb.core.prIdent name="PERSONNES" org.eventb.core.type="ℙ(PERSONNES)"/>
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="sites⊆SITES">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="velos⊆VELOS">
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))">
+<org.eventb.core.prIdent name="SITES" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AddVeloToSite/act1/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="SITES,VELOS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p5"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∧ goal" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p13">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="total function dom substitution in goal" org.eventb.core.prGoal="p13" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="p2"/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="1"/>
+<org.eventb.core.prExprRef name=".subst" org.eventb.core.prRef="e0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p14">
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional goal" org.eventb.core.prGoal="p14" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="site" org.eventb.core.type="SITES"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="abonnes⊆PERSONNES">
+<org.eventb.core.prIdent name="PERSONNES" org.eventb.core.type="ℙ(PERSONNES)"/>
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="velos⊆VELOS"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="velos_in_site∈SITES ⇸ ℙ(VELOS)"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos)"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="site∈sites"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="site∈dom(velos_in_site)∧velos_in_site∈SITES ⇸ ℙ(VELOS)"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="sites⊆SITES"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="site∈dom(velos_in_site)"/>
+<org.eventb.core.prExpr name="e0" org.eventb.core.expression="sites"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.totalDom:2"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AcheterVelos/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="SITES,VELOS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p5"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="v" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="abonnes⊆PERSONNES">
+<org.eventb.core.prIdent name="PERSONNES" org.eventb.core.type="ℙ(PERSONNES)"/>
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="velos⊆VELOS"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos)"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="sites⊆SITES"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos∪v)"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))">
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="v⊆VELOS ∖ velos"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalPP:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="AcheterVelos/inv11/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10" org.eventb.core.prSets="PERSONNES,SITES,VELOS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p7" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p5,p8,p1,p6,p2,p9,p4,p10,p17,p18">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="abonnes" org.eventb.core.type="ℙ(PERSONNES)"/>
+<org.eventb.core.prIdent name="emprunts" org.eventb.core.type="ℙ(PERSONNES×VELOS)"/>
+<org.eventb.core.prIdent name="nbplaces" org.eventb.core.type="ℙ(SITES×ℤ)"/>
+<org.eventb.core.prIdent name="sites" org.eventb.core.type="ℙ(SITES)"/>
+<org.eventb.core.prIdent name="v" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos" org.eventb.core.type="ℙ(VELOS)"/>
+<org.eventb.core.prIdent name="velos_in_site" org.eventb.core.type="ℙ(SITES×ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="abonnes⊆PERSONNES"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="finite(SITES)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ran(emprunts)∩union(ran(velos_in_site))=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="∀s⦂SITES·⊤⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="nbplaces∈sites → ℕ"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card(velos_in_site(s)))"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="velos⊆VELOS"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="finite(VELOS)"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="emprunts∈abonnes ⤔ velos"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="emprunts∈abonnes ⤔ velos∪v"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="velos_in_site∈sites → ℙ(velos)"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="finite(PERSONNES)"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="sites⊆SITES"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="v⊆VELOS ∖ velos"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
 </org.eventb.core.prProof>
 </org.eventb.core.prFile>

@@ -30,6 +30,11 @@
 <org.eventb.core.parameter name="." org.eventb.core.identifier="init_velos"/>
 <org.eventb.core.guard name="/" org.eventb.core.label="grd3" org.eventb.core.predicate="init_velos ⊆ velos"/>
 </org.eventb.core.event>
+<org.eventb.core.event name="K" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AcheterVelos">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="v ⊆ VELOS∖velos"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="velos ≔ velos ∪ v" org.eventb.core.label="act1"/>
+<org.eventb.core.parameter name=")" org.eventb.core.identifier="v"/>
+</org.eventb.core.event>
 <org.eventb.core.event name="A" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="DeplacerVelos">
 <org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="site_a ∈ sites"/>
 <org.eventb.core.parameter name="(" org.eventb.core.identifier="site_a"/>
@@ -48,7 +53,7 @@
 <org.eventb.core.action name="*" org.eventb.core.assignment="nbplaces ≔ nbplaces ∖ {s ↦ nbplaces(s)}" org.eventb.core.label="act2"/>
 <org.eventb.core.action name="+" org.eventb.core.assignment="sites ≔ sites ∖ {s}" org.eventb.core.label="act3"/>
 </org.eventb.core.event>
-<org.eventb.core.event name="6" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddVelo">
+<org.eventb.core.event name="6" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddVeloToSite">
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="new_velos"/>
 <org.eventb.core.parameter name="(" org.eventb.core.identifier="site"/>
 <org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="site ∈ sites"/>
