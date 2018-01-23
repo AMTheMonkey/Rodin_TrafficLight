@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="110">
+<org.eventb.core.poFile org.eventb.core.poStamp="122">
 <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="58">
 <org.eventb.core.poIdentifier name="PERSONNES" org.eventb.core.type="ℙ(PERSONNES)"/>
 <org.eventb.core.poIdentifier name="PLACES" org.eventb.core.type="ℙ(PLACES)"/>
@@ -86,19 +86,19 @@
 <org.eventb.core.poIdentifier name="nbplaces'" org.eventb.core.type="ℙ(SITES×ℤ)"/>
 </org.eventb.core.poPredicateSet>
 <org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitf" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTIDENTvelos_in_sitf" org.eventb.core.poStamp="76"/>
-<org.eventb.core.poSequent name="AddSite/grd3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="103">
+<org.eventb.core.poSequent name="AddSite/grd3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="117">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="init_velos⊆velos⇒finite(init_velos)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#\/"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#\/"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg("/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddSite/grd4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="104">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg*"/>
+<org.eventb.core.poSequent name="AddSite/grd4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="117">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg+"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite(init_velos)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#0"/>
-<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg*"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg+"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddSite/inv8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="104">
+<org.eventb.core.poSequent name="AddSite/inv8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="117">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitg"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="nbplaces{site ↦ nb_places}∈sites∪{site} → ℕ" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#="/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3"/>
@@ -106,7 +106,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#AddSite\/inv8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContexy|org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddSite/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="104">
+<org.eventb.core.poSequent name="AddSite/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="117">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitg"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="velos_in_site{site ↦ init_velos}∈sites∪{site} → ℙ(velos)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#@"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3"/>
@@ -114,7 +114,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#AddSite\/inv10\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContexy|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddSite/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="104">
+<org.eventb.core.poSequent name="AddSite/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="117">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitg"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites∪{site}⇒(nbplaces{site ↦ nb_places})(s)≥card((velos_in_site{site ↦ init_velos})(s)))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#H"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3"/>
@@ -122,7 +122,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#AddSite\/inv14\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContex{|org.eventb.core.poPredicate#PRD5"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddSite/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="104">
+<org.eventb.core.poSequent name="AddSite/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="117">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitg"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∪{site}∧s2∈sites∪{site}∧s1≠s2⇒(velos_in_site{site ↦ init_velos})(s1)∩(velos_in_site{site ↦ init_velos})(s2)=(∅ ⦂ ℙ(VELOS)))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#F"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3"/>
@@ -130,7 +130,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#AddSite\/inv12\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddSite/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="104">
+<org.eventb.core.poSequent name="AddSite/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="117">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitg"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ran(emprunts)∩union(ran(velos_in_site{site ↦ init_velos}))=(∅ ⦂ ℙ(VELOS))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#G"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3"/>
@@ -150,12 +150,13 @@
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="site∈SITES ∖ sites" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#("/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="nb_places∈ℕ∧nb_places&gt;0" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#*"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTHYPvelos_in_sitg*" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg(" org.eventb.core.poStamp="104">
+<org.eventb.core.poPredicateSet name="EVTHYPvelos_in_sitg+" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg(" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="init_velos⊆velos∧card(init_velos)&gt;0" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#\/"/>
 <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="init_velos∩union(ran(velos_in_site))=(∅ ⦂ ℙ(VELOS))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#1"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="init_velos∩ran(emprunts)=(∅ ⦂ ℙ(VELOS))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#2"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitg" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg*" org.eventb.core.poStamp="104">
-<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="nb_places≥card(init_velos)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#0"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitg" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitg+" org.eventb.core.poStamp="117">
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="nb_places≥card(init_velos)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#3|org.eventb.core.guard#0"/>
 </org.eventb.core.poPredicateSet>
 <org.eventb.core.poSequent name="AcheterVelos/grd2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="101">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sith'"/>
@@ -326,19 +327,25 @@
 <org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitj" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTIDENTvelos_in_sitj" org.eventb.core.poStamp="95">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈sites" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#5|org.eventb.core.guard#("/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="AddVelosToSite/grd2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="109">
+<org.eventb.core.poSequent name="AddVelosToSite/grd2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="122">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk'"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="new_velos⊆velos⇒finite(new_velos)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#*"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#*"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk'"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddVelosToSite/grd3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="109">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk("/>
+<org.eventb.core.poSequent name="AddVelosToSite/grd5/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="122">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk)"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="site∈dom(velos_in_site)∧velos_in_site∈SITES ⇸ ℙ(VELOS)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#."/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#."/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk)"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="AddVelosToSite/grd3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="122">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk*"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="site∈dom(nbplaces)∧nbplaces∈SITES ⇸ ℤ∧finite(new_velos)∧site∈dom(velos_in_site)∧velos_in_site∈SITES ⇸ ℙ(VELOS)∧finite(velos_in_site(site))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#,"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#,"/>
-<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk("/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk*"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddVelosToSite/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="109">
+<org.eventb.core.poSequent name="AddVelosToSite/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="122">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitk"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="velos_in_site{site ↦ velos_in_site(site)∪new_velos}∈sites → ℙ(velos)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#@"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6"/>
@@ -346,7 +353,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#AddVelosToSite\/inv10\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContexy|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddVelosToSite/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="109">
+<org.eventb.core.poSequent name="AddVelosToSite/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="122">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitk"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card((velos_in_site{site ↦ velos_in_site(site)∪new_velos})(s)))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#H"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6"/>
@@ -354,7 +361,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#AddVelosToSite\/inv14\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContex{|org.eventb.core.poPredicate#PRD5"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddVelosToSite/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="109">
+<org.eventb.core.poSequent name="AddVelosToSite/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="122">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitk"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒(velos_in_site{site ↦ velos_in_site(site)∪new_velos})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪new_velos})(s2)=(∅ ⦂ ℙ(VELOS)))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#F"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6"/>
@@ -362,7 +369,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#AddVelosToSite\/inv12\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddVelosToSite/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="109">
+<org.eventb.core.poSequent name="AddVelosToSite/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="122">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitk"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ran(emprunts)∩union(ran(velos_in_site{site ↦ velos_in_site(site)∪new_velos}))=(∅ ⦂ ℙ(VELOS))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#G"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6"/>
@@ -370,7 +377,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#AddVelosToSite\/inv13\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="AddVelosToSite/act1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="109">
+<org.eventb.core.poSequent name="AddVelosToSite/act1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="122">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitk"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="site∈dom(velos_in_site)∧velos_in_site∈SITES ⇸ ℙ(VELOS)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.action#+"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.action#+"/>
@@ -384,11 +391,15 @@
 <org.eventb.core.poPredicateSet name="EVTHYPvelos_in_sitk'" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTIDENTvelos_in_sitk" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="site∈sites" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTHYPvelos_in_sitk(" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk'" org.eventb.core.poStamp="109">
+<org.eventb.core.poPredicateSet name="EVTHYPvelos_in_sitk)" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk'" org.eventb.core.poStamp="118">
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="new_velos⊆velos∧card(new_velos)&gt;0" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#*"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="new_velos∩ran(emprunts)=(∅ ⦂ ℙ(VELOS))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#-"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitk" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk(" org.eventb.core.poStamp="109">
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="nbplaces(site)≥card(new_velos)+card(velos_in_site(site))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#,"/>
+<org.eventb.core.poPredicateSet name="EVTHYPvelos_in_sitk*" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk)" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="new_velos∩velos_in_site(site)=(∅ ⦂ ℙ(VELOS))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#."/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitk" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitk*" org.eventb.core.poStamp="122">
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="nbplaces(site)≥card(new_velos)+card(velos_in_site(site))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#6|org.eventb.core.guard#,"/>
 </org.eventb.core.poPredicateSet>
 <org.eventb.core.poSequent name="AddAbonne/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="95">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitl"/>
@@ -405,35 +416,21 @@
 <org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitl" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTIDENTvelos_in_sitl" org.eventb.core.poStamp="95">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="new_abonne∈PERSONNES ∖ abonnes" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#E|org.eventb.core.guard#("/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="RemoveAbonne/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="95">
+<org.eventb.core.poSequent name="RemoveAbonne/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="115">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitm"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="emprunts ∖ {a ↦ emprunts(a)}∈abonnes ∖ {a} ⤔ velos" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#D"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="emprunts∈abonnes ∖ {a} ⤔ velos" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#I"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#RemoveAbonne\/inv11\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContex{|org.eventb.core.poPredicate#PRD6"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RemoveAbonne/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="95">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitm"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ran(emprunts ∖ {a ↦ emprunts(a)})∩union(ran(velos_in_site))=(∅ ⦂ ℙ(VELOS))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#G"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#I"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#G"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#RemoveAbonne\/inv13\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RemoveAbonne/act2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="95">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitm"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a∈dom(emprunts)∧emprunts∈PERSONNES ⇸ VELOS" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#I|org.eventb.core.action#*"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#I|org.eventb.core.action#*"/>
-<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sitm"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTvelos_in_sitm" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="95">
-<org.eventb.core.poIdentifier name="emprunts'" org.eventb.core.type="ℙ(PERSONNES×VELOS)"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTvelos_in_sitm" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="115">
 <org.eventb.core.poIdentifier name="abonnes'" org.eventb.core.type="ℙ(PERSONNES)"/>
 <org.eventb.core.poIdentifier name="a" org.eventb.core.type="PERSONNES"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitm" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTIDENTvelos_in_sitm" org.eventb.core.poStamp="95">
+<org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitm" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTIDENTvelos_in_sitm" org.eventb.core.poStamp="115">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="a∈abonnes" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#I|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a∉dom(emprunts)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#I|org.eventb.core.guard#+"/>
 </org.eventb.core.poPredicateSet>
 <org.eventb.core.poSequent name="EmprunterVelo/grd2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="95">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitn)"/>
@@ -502,13 +499,13 @@
 <org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sitn" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sitn)" org.eventb.core.poStamp="95">
 <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="velo∈velos∧velo∈velos_in_site(site)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#B|org.eventb.core.guard#*"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="RendreVelo/grd2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="95">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sito'"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="site∈sites" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.guard#*"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.guard#*"/>
-<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sito'"/>
+<org.eventb.core.poSequent name="RendreVelo/grd4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="120">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sito)"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="site∈dom(nbplaces)∧nbplaces∈SITES ⇸ ℤ∧site∈dom(velos_in_site)∧velos_in_site∈SITES ⇸ ℙ(VELOS)∧finite(velos_in_site(site))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.guard#."/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.guard#."/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sito)"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RendreVelo/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="110">
+<org.eventb.core.poSequent name="RendreVelo/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="120">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sito"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}}∈sites → ℙ(velos)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#@"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J"/>
@@ -516,7 +513,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#RendreVelo\/inv10\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContexy|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RendreVelo/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="110">
+<org.eventb.core.poSequent name="RendreVelo/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="120">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sito"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s⦂SITES·s∈SITES⇒(s∈sites⇒nbplaces(s)≥card((velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s)))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#H"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J"/>
@@ -524,7 +521,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#RendreVelo\/inv14\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContex{|org.eventb.core.poPredicate#PRD5"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RendreVelo/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="110">
+<org.eventb.core.poSequent name="RendreVelo/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="120">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sito"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="emprunts ∖ {abonne ↦ emprunts(abonne)}∈abonnes ⤔ velos" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J"/>
@@ -532,7 +529,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#RendreVelo\/inv11\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#HYPVelibContex{|org.eventb.core.poPredicate#PRD6"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RendreVelo/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="110">
+<org.eventb.core.poSequent name="RendreVelo/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="120">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sito"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧s1≠s2⇒(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}})(s2)=(∅ ⦂ ℙ(VELOS)))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#F"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J"/>
@@ -540,7 +537,7 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#RendreVelo\/inv12\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RendreVelo/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="110">
+<org.eventb.core.poSequent name="RendreVelo/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="120">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sito"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ran(emprunts ∖ {abonne ↦ emprunts(abonne)})∩union(ran(velos_in_site{site ↦ velos_in_site(site)∪{emprunts(abonne)}}))=(∅ ⦂ ℙ(VELOS))" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#G"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J"/>
@@ -548,13 +545,13 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poSequent#RendreVelo\/inv13\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RendreVelo/act2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="110">
+<org.eventb.core.poSequent name="RendreVelo/act2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="120">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sito"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="site∈dom(velos_in_site)∧velos_in_site∈SITES ⇸ ℙ(VELOS)∧abonne∈dom(emprunts)∧emprunts∈PERSONNES ⇸ VELOS" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.action#,"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.action#,"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sito"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="RendreVelo/act1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="110">
+<org.eventb.core.poSequent name="RendreVelo/act1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="120">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTALLHYPvelos_in_sito"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="abonne∈dom(emprunts)∧emprunts∈PERSONNES ⇸ VELOS" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.action#+"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.action#+"/>
@@ -566,12 +563,13 @@
 <org.eventb.core.poIdentifier name="site" org.eventb.core.type="SITES"/>
 <org.eventb.core.poIdentifier name="abonne" org.eventb.core.type="PERSONNES"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTHYPvelos_in_sito'" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTIDENTvelos_in_sito" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTHYPvelos_in_sito)" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTIDENTvelos_in_sito" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="abonne∈abonnes" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.guard#)"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sito" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sito'" org.eventb.core.poStamp="110">
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="site∈sites" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.guard#*"/>
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="abonne∈dom(emprunts)" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.guard#-"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPvelos_in_sito" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#EVTHYPvelos_in_sito)" org.eventb.core.poStamp="120">
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="nbplaces(site)≥card(velos_in_site(site))+1" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.event#J|org.eventb.core.guard#."/>
 </org.eventb.core.poPredicateSet>
 <org.eventb.core.poPredicateSet name="HYPVelibContexy" org.eventb.core.parentSet="/velib/Velib.bpo|org.eventb.core.poFile#Velib|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="abonnes⊆PERSONNES" org.eventb.core.source="/velib/Velib.bum|org.eventb.core.machineFile#Velib|org.eventb.core.invariant#."/>
