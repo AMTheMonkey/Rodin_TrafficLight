@@ -6445,7 +6445,7 @@
 <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p59">
 <org.eventb.core.prRule name="r8" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p59" org.eventb.core.prHyps="p14">
 <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p60">
-<org.eventb.core.prRule name="r9" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p60" org.eventb.core.prHyps="p16,p11,p2,p7,p14,p12,p5,p15,p18,p17,p20,p13,p19,p6,p1,p4,p10,p24,p25,p33,p34,p37,p38,p39,p54,p50">
+<org.eventb.core.prRule name="r9" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p60" org.eventb.core.prHyps="p16,p11,p2,p7,p14,p12,p5,p15,p17,p18,p19,p6,p1,p4,p20,p13,p10,p24,p25,p33,p34,p37,p38,p39,p54,p50">
 <org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
 </org.eventb.core.prRule>
 </org.eventb.core.prAnte>
@@ -6492,7 +6492,7 @@
 <org.eventb.core.prPred name="p12" org.eventb.core.predicate="emprunts∈abonnes ⤔ velos"/>
 <org.eventb.core.prPred name="p13" org.eventb.core.predicate="velos_in_site∈SITES ⇸ ℙ(VELOS)"/>
 <org.eventb.core.prPred name="p23" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈SITES∧s2∈SITES⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
-<org.eventb.core.prPred name="p18" org.eventb.core.predicate="new_velos∩ran(emprunts)=(∅ ⦂ ℙ(VELOS))"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="new_velos∩ran(emprunts)=(∅ ⦂ ℙ(VELOS))"/>
 <org.eventb.core.prPred name="p34" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS))"/>
 <org.eventb.core.prPred name="p55" org.eventb.core.predicate="({site} ⩤ velos_in_site)(s1)∩(velos_in_site{site ↦ velos_in_site(site)∪new_velos})(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s1" org.eventb.core.type="SITES"/>
@@ -6547,7 +6547,6 @@
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p53" org.eventb.core.predicate="¬⊥"/>
 <org.eventb.core.prPred name="p16" org.eventb.core.predicate="finite(PERSONNES)"/>
-<org.eventb.core.prPred name="p17" org.eventb.core.predicate="new_velos∩velos_in_site(site)=(∅ ⦂ ℙ(VELOS))"/>
 <org.eventb.core.prPred name="p31" org.eventb.core.predicate="∀s1⦂SITES,s2⦂SITES·⊤∧⊤⇒(s1∈sites∧s2∈sites∧¬s1=s2⇒velos_in_site(s1)∩velos_in_site(s2)=(∅ ⦂ ℙ(VELOS)))"/>
 <org.eventb.core.prPred name="p51" org.eventb.core.predicate="(velos_in_site(site)∪new_velos)∩({site} ⩤ velos_in_site)(s2)=(∅ ⦂ ℙ(VELOS))">
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
@@ -6585,6 +6584,7 @@
 <org.eventb.core.prIdent name="s2" org.eventb.core.type="SITES"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p33" org.eventb.core.predicate="∀s⦂SITES·s∈sites⇒nbplaces(s)≥card(velos_in_site(s))"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="new_velos∩union(ran(velos_in_site))=(∅ ⦂ ℙ(VELOS))"/>
 <org.eventb.core.prPred name="p20" org.eventb.core.predicate="site∈dom(velos_in_site)"/>
 <org.eventb.core.prReas name="r8" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
