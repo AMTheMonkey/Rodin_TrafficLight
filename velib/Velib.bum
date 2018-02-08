@@ -23,15 +23,15 @@
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="site"/>
 <org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="site ∈ SITES∖sites"/>
 <org.eventb.core.parameter name=")" org.eventb.core.identifier="nb_places"/>
-<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="nb_places ∈ ℕ ∧ nb_places &gt; 0"/>
 <org.eventb.core.action name="+" org.eventb.core.assignment="sites ≔ sites ∪ {site}" org.eventb.core.label="act1"/>
 <org.eventb.core.action name="," org.eventb.core.assignment="nbplaces(site) ≔ nb_places" org.eventb.core.label="act2"/>
 <org.eventb.core.action name="-" org.eventb.core.assignment="velos_in_site(site) ≔ init_velos" org.eventb.core.label="act3"/>
 <org.eventb.core.parameter name="." org.eventb.core.identifier="init_velos"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="nb_places ∈ ℕ ∧ nb_places &gt; 0"/>
 <org.eventb.core.guard name="/" org.eventb.core.label="grd3" org.eventb.core.predicate="init_velos ⊆ velos ∧ card(init_velos) &gt; 0"/>
-<org.eventb.core.guard name="1" org.eventb.core.label="grd5" org.eventb.core.predicate="init_velos ∩ union(ran(velos_in_site)) = ∅"/>
 <org.eventb.core.guard name="2" org.eventb.core.label="grd6" org.eventb.core.predicate="init_velos ∩ ran(emprunts) = ∅"/>
 <org.eventb.core.guard name="0" org.eventb.core.label="grd4" org.eventb.core.predicate="nb_places ≥ card(init_velos)"/>
+<org.eventb.core.guard name="1" org.eventb.core.label="grd5" org.eventb.core.predicate="∀v,s·v∈velos ∧ s∈sites ∧ v ∈ velos_in_site(s) ⇒ (v ∉ init_velos) "/>
 </org.eventb.core.event>
 <org.eventb.core.event name="K" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AcheterVelos">
 <org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="v ⊆ VELOS∖velos"/>
@@ -95,7 +95,7 @@
 <org.eventb.core.invariant name="H" org.eventb.core.label="inv14" org.eventb.core.predicate="∀s·s∈SITES ⇒ (s∈sites ⇒ nbplaces(s) ≥ card(velos_in_site(s)))"/>
 <org.eventb.core.invariant name="D" org.eventb.core.label="inv11" org.eventb.core.predicate="emprunts ∈ abonnes ⤔ velos"/>
 <org.eventb.core.invariant name="F" org.eventb.core.label="inv12" org.eventb.core.predicate="∀s1,s2·(s1∈SITES ∧ s2∈SITES) ⇒ ((s1 ∈ sites ∧ s2 ∈ sites ∧ s1 ≠ s2 ) ⇒ (velos_in_site(s1) ∩ velos_in_site(s2)) = ∅)"/>
-<org.eventb.core.invariant name="G" org.eventb.core.label="inv13" org.eventb.core.predicate="ran(emprunts) ∩ union(ran(velos_in_site)) = ∅"/>
+<org.eventb.core.invariant name="G" org.eventb.core.label="inv13" org.eventb.core.predicate="∀v·v∈velos ∧ v∈ran(emprunts) ⇒ (∀s·s∈sites ∧ v∉velos_in_site(s))"/>
 <org.eventb.core.event name="J" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="RendreVelo">
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="abonne"/>
 <org.eventb.core.parameter name="(" org.eventb.core.identifier="site"/>
