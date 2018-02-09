@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="5">
+<org.eventb.core.poFile org.eventb.core.poStamp="6">
 <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="3">
 <org.eventb.core.poIdentifier name="PERSONNES" org.eventb.core.type="ℙ(PERSONNES)"/>
 <org.eventb.core.poIdentifier name="PLACES" org.eventb.core.type="ℙ(PLACES)"/>
 <org.eventb.core.poIdentifier name="SITES" org.eventb.core.type="ℙ(SITES)"/>
 <org.eventb.core.poIdentifier name="VELOS" org.eventb.core.type="ℙ(VELOS)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/velib_old/VelibContext.bpo|org.eventb.core.poFile#VelibContext|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="5">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="finite(PERSONNES)" org.eventb.core.source="/velib_old/VelibContext.buc|org.eventb.core.contextFile#VelibContext|org.eventb.core.axiom#*"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="finite(VELOS)" org.eventb.core.source="/velib_old/VelibContext.buc|org.eventb.core.contextFile#VelibContext|org.eventb.core.axiom#+"/>
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="finite(SITES)" org.eventb.core.source="/velib_old/VelibContext.buc|org.eventb.core.contextFile#VelibContext|org.eventb.core.axiom#,"/>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/velib/VelibContext.bpo|org.eventb.core.poFile#VelibContext|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="6">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="finite(PERSONNES)" org.eventb.core.source="/velib/VelibContext.buc|org.eventb.core.contextFile#VelibContext|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="finite(VELOS)" org.eventb.core.source="/velib/VelibContext.buc|org.eventb.core.contextFile#VelibContext|org.eventb.core.axiom#+"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="finite(SITES)" org.eventb.core.source="/velib/VelibContext.buc|org.eventb.core.contextFile#VelibContext|org.eventb.core.axiom#,"/>
 </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>
